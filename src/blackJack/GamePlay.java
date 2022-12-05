@@ -12,7 +12,6 @@ public class GamePlay {
 	final Scanner input = new Scanner(System.in);
 	
 	public void gameLoop() {
-		//noinspection InfiniteLoopStatement
 		while(true) {
 			
 			if(player.getStaying() && dealer.getStaying()){
